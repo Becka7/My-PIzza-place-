@@ -8,16 +8,87 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap-4.6.0-dist/css/bootstrap-grid.css">
     <link rel="stylesheet" href="/css/bootstrap-4.6.0-dist/js/bootstrap.bundle.js">
+    <link rel="stylesheet" href="/style.css">
+    
 </head>
 <body>
+    
+        <div class="container-fluid">
+        <nav class="navbar navbar-inverse">
             <div class="navbarh">
+               <h1><a>My <span>PIzza</span> Place </a></h1>
+               <div id="rest">
+                <h2><a href="#home">Home</a></h2>
                 <h2><a href="#middle">About</a></h2>
-    </nav>
-        </div>
-    <div class="container">
-                    <h1>Large</h1>
+                <h2><a href="#menu">Menu</a></h2>
+                <h2><a href="#contacts">Contacts</a></h2>
+                <h2><button><a href="#order">Order now</a></button> </h2>    
         
+
+               </div>
+              
+        </div>
+    </nav>
+        
+        <div id="home">
+            <img id ="logo" src="" alt="">
+            <h1 id="quote">...A Pizza is basically a real-time </h1>
+            <h1 id="quoty">pie-chart of how much pizza is left ..... </h1>
+        </div>
+
+        <div class="middle">
+            <h1>About us</h1>
+            <img id="big"src="/Images/ovrhsrimcoj8kyx9akjddsuo0gee9coqhybhsvv6wbii11om8gmywpapbei6a5vu--removebg-preview.png" alt="">
+            <p id="Pit">Our customers happiness and health is our first priority,that is why we use only organic products that we have planted in our farm .we also work with local farmers tp produce pre and organic products .</P>
+                <P>This helps us to keep you healthy while  supporting the community Now you can get your favourite pizza delivered right to your door! We’ve chosen the top delivery services in Kenya to ensure that you get your meal delivered while it’s still hot and fresh.</p>
+        </div>
+
+        <div class="container">
+            <h1 style="text-align: center;">What sizes do we have </h1>
+            <div class="row">
+                <img id="back"src="/Images/food-and-drink-pizza-pizzas-tomato.jpg" alt="">
+                <div class="col-md-4">
+                    <img src="/Images/images__19_-removebg-preview.png" alt="">
+                    <h1>Small</h1>
+    
+                </div>
+                <div class="col-md-4">
+                    <img src="/Images/images__19_-removebg-preview.png" alt="">
+                    <h1>Medium</h1>
+                </div>
+                <div class="col-md-4">
+                    <img src="/Images/images__19_-removebg-preview.png" alt="">
+                    <h1>Large</h1>
+    
+                </div>
+    
+            </div>
+            
+        </div>
+
+    </div>
+    <div class="order">
+        <h1>Get your order in now</h1>
+        <form id="orderPizza">
+            <label>Name</label>
+            <input type="text" placeholder="Name">
+            <label>Email</label>
+            <input type="text" placeholder="Email">
+            <p>Chose size</p>
+            <label>Size</label>
+             <select name="size" id="sel">Medium,small,large</select>
+             <p>Pic your crust</p>
+             <input type="checkbox" name="stuffed" >
+                 <label >Stuffed</label><br>
+                 <input type="checkbox" name="crispy" >
+                 <label for="crispy">crispy</label><br>
+                 <input type="checkbox" name="Gluten free">
+                 <label for="Gluten free">Gluten free</label><br>
+                 <p>it's time to pic the toppings</p>
+
+        </form>
 
     </div>
 </body>
