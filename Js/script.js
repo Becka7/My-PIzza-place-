@@ -28,7 +28,7 @@ function checkOut(){
         var toppingPrice=400;
     }
 
-    alert("heeeyyyy")
+    
 
     var total= ((prize+toppingPrice)*number);
     
