@@ -38,7 +38,7 @@ function checkOut(){
     
 }
 
-// var name=('input#names').val();
+
 $(document).ready(function(){
     
     $('#deliver').click(function(){
