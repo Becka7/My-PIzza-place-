@@ -25,7 +25,7 @@
                 <h2><a href="#menu">Menu</a></h2>
                 <h2><a href="#contacts">Contacts</a></h2>
                 <h2><button><a href="#order">Order now</a></button> </h2>    
-        
+    
 
                </div>
               
@@ -38,7 +38,7 @@
             <h1 id="quoty">pie-chart of how much pizza is left ..... </h1>
         </div>
 
-        <div class="middle">
+        <div id="middle">
             <h1>About us</h1>
             <img id="big"src="/Images/ovrhsrimcoj8kyx9akjddsuo0gee9coqhybhsvv6wbii11om8gmywpapbei6a5vu--removebg-preview.png" alt="">
             <p id="Pit">Our customers happiness and health is our first priority,that is why we use only organic products that we have planted in our farm .we also work with local farmers tp produce pre and organic products .</P>
@@ -46,7 +46,7 @@
         </div>
 
         <div class="container">
-            <h1 style="text-align: center;">What sizes do we have </h1>
+            <h1  id=menu style="text-align: center;">What sizes do we have </h1>
             <div class="row">
                 <!-- <img id="back"src="/Images/food-and-drink-pizza-pizzas-tomato.jpg" alt=""> -->
                 <div class="col-md-4">
@@ -55,7 +55,7 @@
                     <h1>600/=</h1>
     
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4"  id="medi" >
                     <img src="/Images/images__19_-removebg-preview.png" alt="">
                     <h1>Medium</h1>
                     <h1>800/=</h1>
@@ -72,58 +72,86 @@
         </div>
 
     </div>
-    <div class="order">
+    <div id="order">
         <h1>Get your order in now</h1>
         <img id="piece"src="/Images/9a6a70cb2a4f2e501f4b1777e2171b95-removebg-preview.png" alt="">
         <form id="orderPizza">
             <h3>Your info</h3>
             <label>Name</label>
-            <input type="text" placeholder="enter Name">
+            <input  id="names"type="text" placeholder="enter Name">
             <br></br>
             <label>Email</label>
-            <input type="text" placeholder="enter Email">
+            <input id="mail"type="text" placeholder="enter Email">
             <br></br>
             <label for="Phone number">Phone</label>
-            <input type="telephone" placeholder="Phone number">
+            <input id="tel" type="telephone" placeholder="Phone number">
             <h3>Chose size</h3>
             <label>Size</label>
+            <br></br>
             <select name="size" id="size">
                 <option value="Small">Small</option>
                 <option value="Medium">Medium</option>
-                <option value="large">Large</option>
+                <option value="Large">Large</option>
                 
               </select>
              <h3>Pick your crust</h3>
              <!-- <img id="floatingp" src="/Images/114393148-homemade-sliced-cheesy-classic-italian-pizza-with-ingredients-and-olive-oil-white-marble-background--removebg-preview.png" alt=""> -->
-             <input type="checkbox" name="stuffed" >
+                 <input value=" Stuffed"type="checkbox" name="stuffed" id="crusty">
                  <label >Stuffed</label><br>
-                 <input type="checkbox" name="crispy" >
+                 <input value=" Crispy"type="checkbox" name="crispy" id="crusty">
                  <label for="crispy">crispy</label><br>
-                 <input type="checkbox" name="Gluten free">
+                 <input value=" Glutten free"type="checkbox" name="Gluten free" id="crusty">
                  <label for="Gluten free">Gluten free</label><br>
-                 <h3>it's time to pick the toppings !!!!</h3>
-                 <input type="checkbox" name="chicken periperi" >
-                 <label >Chicken periperi</label><br>
-                 <input type="checkbox" name="chicken periperi" >
-                 <label for="crispy">BBQ steak</label><br>
-                 <input type="checkbox" name="bbq steak">
-                 <label for="Gluten free">Hawaian</label><br>
-                 <input type="checkbox" name="hawaian" >
-                 <label for="crispy">Meat deluxe</label><br>
-                 <input type="checkbox" name="Meat deluxe">
-                 <label for="">Chicken tikka</label><br>
-                 <!-- <br></br> -->
-                 <button onclick="checkOut()">Check out your order</button>
+
+                 <h3>It's time to pick the toppings !!!!</h3>
+                 <label>Toppings</label>
+                 <br></br>
+                 <select name="toppings" id="tops">
+                     <option value="Chicken Periperi">Chicken Periperi</option>
+                     <option value="BBQ steak">BBQ steak</option>
+                     <option value="Hawaian">Hawaian</option>
+                     <option value="Margharrita">Margharrita</option>
+                     <option value="Chicken tikka">Chicken tikka</option>
+                 </select>
+                 <br></br>
+                 <label for="number">How many</label>
+                <input id ="pizzas"type="number">
+                <br></br>
+                 <button onclick="checkOut()" id="defa"><a href="#check">Check out your order</a></button>
 
         </form>
         
 
     </div>
-    <div class="check">
-        <h3>Your order is</h3>
+    <div id="check">
+        <button id="edit">Edit order</button>
+        <h3 id=namy></h3>
+        <!-- <h3>Your order is</h3> -->
+        <h3 id="myOrder"></h3>
         <h3 id="oderCheck"></h3>
         <button id="deliver">Delivery </button>
-        <button id="deliver">Pick up</button>
+        <button id="pick">Pick up</button>
     </div>
+
+    <div id="contacts">
+        <h1>Talk to us</h1>
+        <form id ="cont">
+            <label>Name</label>
+            <br></br>
+            <input id="inpo"type="text" placeholder="Name">
+            <br></br>
+            <label >Email</label>
+            <br></br>
+            <input id="inpo"type="text" placeholder="Email"><br></br>
+            <label>Message</label>
+            <br></br>
+            <textarea id="inpo"type="text" ></textarea>
+            <br></br>
+            <button>Submit</button>
+        </form>
+    </div>
+    
+    <script src="/Js/jquery-3.6.0.js"></script>
+    <script src="/Js/script.js"></script>
 </body>
 </html>
