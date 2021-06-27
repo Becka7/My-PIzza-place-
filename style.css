@@ -74,7 +74,7 @@ h2{
     padding-left: 4%;
     box-shadow: 3px ,3px,3px  grey;
 }
-.middle{
+#middle{
     text-align: center;
     margin-bottom: 20%;
 }
@@ -112,7 +112,8 @@ h1{
 }
 #piece{
     float: left;
-    margin-right: 20%;
+    margin-right: 10%;
+    margin-bottom: 10;
 }
 form{
     margin-left: 20%;
@@ -121,9 +122,9 @@ form{
     background-size: cover;
     border-radius: 30px;
 }
-.col-md-4{
+#medi{
     border-left: 2px solid greenyellow;
-    /* border-right: 2px solid greenyellow; */
+    border-right: 2px solid greenyellow;
 }
 #floatingp{
     float: right;
@@ -133,6 +134,34 @@ input{
     /* background-color: greenyellow; */
     border: greenyellow;
 }
-h3{
-    color: 
+#check{
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 20%;
+    height: 30vh;
+    display: none;
+}
+#cont{
+    border-color: greenyellow;
+    height: 60vh;
+    background-image: url(/Images/pngtree-gourmet-food-pizza-background-template-image_160185.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0%;
+    text-align: center;
+    color: white;
+}
+#inpo{
+    background-color: greenyellow;
+    opacity: 0.4;
+
+}
+textarea{
+    width:30%;
+    height: 20vh;
+    
+}
+#contacts{
+    margin-top: 10%;
+
 }
