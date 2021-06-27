@@ -1,14 +1,9 @@
-body{
-    /* background-image: url(/Images/pngtree-gourmet-food-pizza-background-template-image_160185.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; */
-   
-}
+
 span{
     color: greenyellow;
 }
 button{
-    /* float: right !important; */
+   
     background-color: greenyellow;
     border-radius: 20px;
     width: 100px;
@@ -23,12 +18,11 @@ a{
 }
 .navbarh{
     display:flex;
-    /* justify-content: space-between; */
+   
    
 }
 #rest{
     display: flex;
-    /* justify-content:space-evenly; */
     margin-left: 30%;
 }
 #intro{
@@ -39,7 +33,7 @@ h2{
     margin-left: 20%;
 }
 #home{
-    background-image: url(/Images/pizza-1.jpg);
+    background-image: url(./Images/pizza-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /* opacity: 0.5; */
@@ -47,17 +41,9 @@ h2{
     color:white;
     font-family: 'Lobster', cursive;
     font-size: 2em;
-    
 
 }
-/* nav{
-    position: fixed;
-    background-color: white;
-} */
-/* #logo{
-    float: right;
-    margin-right: 20%;
-} */
+
 .class{
     display: flex;
 }
@@ -79,7 +65,7 @@ h2{
     margin-bottom: 20%;
 }
 p{
-    /* padding-top: 10%; */
+ 
     padding-left: 7%;
 }
 #Pit{
@@ -89,20 +75,17 @@ p{
     background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
-    /* opacity: 0.5; */
     color:black;
     height: 80vh;
     margin-bottom: 20%;
     background-color:rgba(240, 236, 236, 0.685);
-    /* padding-bottom:25% ; */
-    /* padding-left: 20%; */
+    
 }
 .row{
     padding-top: 7%;
 }
 h1{
     text-align: center;
-    /* color: greenyellow; */
 }
 #back{
     position: absolute;
@@ -117,7 +100,7 @@ h1{
 }
 form{
     margin-left: 20%;
-    background-image: url(/Images/114393148-homemade-sliced-cheesy-classic-italian-pizza-with-ingredients-and-olive-oil-white-marble-background--removebg-preview.png);
+    background-image: url(./Images/114393148-homemade-sliced-cheesy-classic-italian-pizza-with-ingredients-and-olive-oil-white-marble-background--removebg-preview.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 30px;
@@ -131,7 +114,6 @@ form{
 }
 input{
     border-radius: 10px;
-    /* background-color: greenyellow; */
     border: greenyellow;
 }
 #check{
@@ -144,7 +126,7 @@ input{
 #cont{
     border-color: greenyellow;
     height: 60vh;
-    background-image: url(/Images/pngtree-gourmet-food-pizza-background-template-image_160185.jpg);
+    background-image: url(./Images/pngtree-gourmet-food-pizza-background-template-image_160185.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 0%;
