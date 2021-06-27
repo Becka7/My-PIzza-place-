@@ -1,0 +1,138 @@
+body{
+    /* background-image: url(/Images/pngtree-gourmet-food-pizza-background-template-image_160185.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+   
+}
+span{
+    color: greenyellow;
+}
+button{
+    /* float: right !important; */
+    background-color: greenyellow;
+    border-radius: 20px;
+    width: 100px;
+    height: 7vh;
+    font-weight: 700;
+    border-color: transparent;
+    
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.navbarh{
+    display:flex;
+    /* justify-content: space-between; */
+   
+}
+#rest{
+    display: flex;
+    /* justify-content:space-evenly; */
+    margin-left: 30%;
+}
+#intro{
+    float: right;
+}
+h2{
+    font-weight: 500;
+    margin-left: 20%;
+}
+#home{
+    background-image: url(/Images/pizza-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+    height: 90vh;
+    color:white;
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    
+
+}
+/* nav{
+    position: fixed;
+    background-color: white;
+} */
+/* #logo{
+    float: right;
+    margin-right: 20%;
+} */
+.class{
+    display: flex;
+}
+#quote{
+    text-align: center;
+    padding-top: 10%;
+}
+#quoty{
+    text-align: center;
+}
+#big{
+    float: right;
+    border-radius: 50%;
+    padding-left: 4%;
+    box-shadow: 3px ,3px,3px  grey;
+}
+.middle{
+    text-align: center;
+    margin-bottom: 20%;
+}
+p{
+    /* padding-top: 10%; */
+    padding-left: 7%;
+}
+#Pit{
+    padding-top: 10%;
+}
+.container{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+    color:black;
+    height: 80vh;
+    margin-bottom: 20%;
+    background-color:rgba(240, 236, 236, 0.685);
+    /* padding-bottom:25% ; */
+    /* padding-left: 20%; */
+}
+.row{
+    padding-top: 7%;
+}
+h1{
+    text-align: center;
+    /* color: greenyellow; */
+}
+#back{
+    position: absolute;
+    opacity: 0.5;
+    width: 90%;
+    height: 60vh;
+}
+#piece{
+    float: left;
+    margin-right: 20%;
+}
+form{
+    margin-left: 20%;
+    background-image: url(/Images/114393148-homemade-sliced-cheesy-classic-italian-pizza-with-ingredients-and-olive-oil-white-marble-background--removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+.col-md-4{
+    border-left: 2px solid greenyellow;
+    /* border-right: 2px solid greenyellow; */
+}
+#floatingp{
+    float: right;
+}
+input{
+    border-radius: 10px;
+    /* background-color: greenyellow; */
+    border: greenyellow;
+}
+h3{
+    color: 
+}
